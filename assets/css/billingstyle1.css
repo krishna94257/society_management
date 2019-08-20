@@ -1,0 +1,62 @@
+.left{
+           width: 150%;
+     }
+  .right{
+        width:110%;
+        }   
+.left input{
+               color:black;
+               border:1px solid #3a23235c;
+               width: 235px;
+            }
+ .right input{
+                 border:1px solid #3a23235c;
+             } 
+ .left textarea{
+                  height:68px;
+                  border:1px solid #3a23235c;
+               }                      
+.empty{
+         width: 50%;
+    float: left;
+    color:white;
+      }
+.level1{
+               width: 10%;
+               float: left;
+        }
+.subtotal{
+            width: 9%;
+    float: left;
+     border: 1px solid #3a23232b;
+   
+    border-radius: 8px;
+          }
+ .subtotal1{
+             width: 17%;
+    float: left;
+    border: 1px solid #3a23232b;
+    border-radius: 8px;
+    background-color: #e9ecef;
+           }                       
+.formgroup{
+          
+          }
+.error{
+         color:red;
+     }
+.cb{
+    width:100%;
+}     
+.selectproduct{
+         float:left !important;
+         width:30% !important;
+}
+
+.tex{
+         float:left !important;
+         width:17% !important;
+}
+.tex input{
+             width: 70% !important;
+          }

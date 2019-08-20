@@ -1,0 +1,38 @@
+<!--
+Author: Javed Ur Rehman
+Website: https://www.allphptricks.com
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="select2.min.css" />
+<style>
+.select2-dropdown {top: 22px !important; left: 8px !important;}
+</style>
+</head>
+<body>
+
+<select id="country">
+	<option value="">Select Country</option>
+	<option value="4">Afghanistan</option>
+	
+	
+	
+	
+</select>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="select2.min.js"></script>
+<script>
+$("#country").select2( {
+	placeholder: "Select Country",
+	allowClear: true
+	} );
+</script>
+</body>
+</html>

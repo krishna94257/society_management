@@ -1,0 +1,31 @@
+.form-group row{
+}
+
+.form-group label{
+/*max-width: 21% !important;*/
+  /*  padding-left: 106px;*/
+
+}
+.form-control{
+    max-width: 65%;
+}
+.table th, .table td{
+                       
+                             
+                     }
+.table table-bordered table-striped
+{
+
+}
+table.dataTable
+{
+    border-collapse: none !important;
+}
+th.hding{
+max-width:20px;
+
+}
+th.heading.sorting_asc {
+    padding-left: 1px;
+    width: 10px !important;
+}
